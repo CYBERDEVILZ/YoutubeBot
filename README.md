@@ -4,7 +4,7 @@ YouTube Bot is a very simple to use python script that takes use of selenium to 
 - Python 3
 - Web Browser (Chrome or Firefox)
 - Selenium module
-## How to begin?
+## How to execute?
 - Firstly, Python 3 must be present in your system
 - Then install selenium using pip: `pip install selenium`
 - Download the apt Web Drivers (I have already included the drivers, so no need to worry)
