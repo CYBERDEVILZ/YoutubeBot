@@ -22,19 +22,20 @@ def duration_split(duration):
 #-------------------------------- MAIN EXECUTION --------------------------------#
 while True:
 
-    # driver = webdriver.Firefox()        # ---> If firefox driver, then enable this
-    driver = webdriver.Chrome()       # ---> If chrome driver, then enable this
+    driver = webdriver.Chrome()
 
     # ---> Enter YouTube video URL below <--- #
     driver.get("https://www.youtube.com/watch?v=LmdhWsccv4w&lc=UgyW9iIVYCuCp8mK9CV4AaABAg")
 
-    duration = "4:57"                   # ---> Enter duration here
+    # ---> Enter duration below (format = "hour:min:sec" or "min:sec") <--- #
+    duration = "4:57" 
 
     duration = duration_split(duration=duration)
 
     plybtn = driver.find_element_by_class_name("ytp-play-button")
-    time.sleep(3)  
-    plybtn.click()                      # ---> If the video doesnt start playing within three seconds of opening, then disable this
+    time.sleep(3)
+    # ---> If the video doesnt start playing within three seconds of opening, then disable this  <--- #
+    plybtn.click()                      
 
     time.sleep(duration)
     driver.close()
