@@ -11,4 +11,4 @@ YouTube Bot is a very simple to use python script that takes use of selenium to 
 - Add the URL of your YouTube video
 - Add the duration (specify how much the script should "watch" your video. Format is hh:mm:ss)
 - Execute
-- If the video doesn't play, then comment out the `plybtn.click()` code segment
+- If the video doesn't play, then comment out the `plybtn.click()` code segment and proceed from step 4
