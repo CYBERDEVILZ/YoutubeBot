@@ -68,7 +68,7 @@ def start():
                 return
     while loop:
 
-        driver = webdriver.Firefox()
+        driver = webdriver.Chrome()
         driver.get(url_input.get().strip())
         plybtn = driver.find_element_by_class_name("ytp-play-button")
         time.sleep(3)
