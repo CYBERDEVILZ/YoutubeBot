@@ -27,7 +27,7 @@ def filter():
             fetch(x)
             global img0
             img0 = Image.open("./images/image1.jpg")
-            img0 = img0.resize((round(img0.size[0]*0.5), round(img0.size[1]*0.5)))
+            img0 = img0.resize((round(img0.size[0]*0.7), round(img0.size[1]*0.7)))
             img0 = ImageTk.PhotoImage(img0)
             thumbnail_frm.configure(image=img0)
 
@@ -81,7 +81,7 @@ def start():
     
 
 img0 = Image.open("./images/image.jpg")
-img0 = img0.resize((round(img0.size[0]*0.5), round(img0.size[1]*0.5)))
+img0 = img0.resize((round(img0.size[0]*0.7), round(img0.size[1]*0.7)))
 img0 = ImageTk.PhotoImage(img0)
 
 title = tk.Label(master=window, text="YouTube Bot", font=("", 40))
