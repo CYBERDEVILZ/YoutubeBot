@@ -1,5 +1,5 @@
 # YouTube Bot
-## Increase views on your videos
+## Increase views on any YouTube video
 YouTube Bot is a very simple to use python script that takes use of selenium to automate the process. All you need is:
 - Python 3
 - Web Browser (Chrome or Firefox)
