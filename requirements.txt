@@ -1,3 +1,4 @@
 selenium
 pillow
 requests
+pyautogui
