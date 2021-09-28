@@ -32,8 +32,8 @@ def filter():
             fetch(x)
             global img0
             img0 = Image.open("./images/image1.jpg")
+            img0 = img0.resize((round(img0.size[0]*0.7*width/1920), round(img0.size[1]*0.7*width/1920)))
             print("thumbnail size -> " + str(img0.size[0]) + ", " + str(img0.size[1]))
-            img0 = img0.resize((round(img0.size[0]*0.7), round(img0.size[1]*0.7)))
             img0 = ImageTk.PhotoImage(img0)
             thumbnail_frm.configure(image=img0)
         except:
@@ -83,12 +83,12 @@ def start():
     
 # ---> IMAGES <--- #
 img0 = Image.open("./images/image.jpg")
+img0 = img0.resize((round(img0.size[0]*0.7*width/1920), round(img0.size[1]*0.7*width/1920)))
 print("img0 size -> " + str(img0.size[0]) + ", " + str(img0.size[1]))
-img0 = img0.resize((round(img0.size[0]*0.7), round(img0.size[1]*0.7)))
 img0 = ImageTk.PhotoImage(img0)
 img1 = Image.open("./images/youtubebot.png")
+img1 = img1.resize((round(img1.size[0]*0.5*width/1920), round(img1.size[1]*0.5*width/1920)))
 print("img1 size -> " + str(img1.size[0]) + ", " + str(img1.size[1]))
-img1 = img1.resize((round(img1.size[0]*0.5), round(img1.size[1]*0.5)))
 img1 = ImageTk.PhotoImage(img1)
 
 # ---> TITLE OF THE GUI <--- #
