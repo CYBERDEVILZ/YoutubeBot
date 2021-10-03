@@ -2,3 +2,5 @@ selenium
 pillow
 requests
 pyautogui
+black
+pre-commit
