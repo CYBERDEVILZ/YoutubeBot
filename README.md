@@ -20,7 +20,7 @@ YouTube Bot is a very simple to use python script that takes use of selenium to 
 
 - Firstly, Python 3 must be present in your system
 - Then install the necessary libraries and modules by typing `pip install -r requirements.txt`
-- Download the apt Web Drivers (I have already included the drivers, so no need to worry)
+- Download the apt Web Drivers (I have already included the drivers, so no need to worry) and add it to PATH.
 - Add the URL of your YouTube video and hit Submit.
 - Add the duration (specify how much the script should "watch" your video. Format is hh:mm:ss)
 - Add the number of times you want to execute the script (mention inf for infinite).
