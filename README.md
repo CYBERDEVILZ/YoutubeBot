@@ -15,4 +15,4 @@ YouTube Bot is a very simple to use python script that takes use of selenium to 
 - Add the number of times you want to execute the script (mention inf for infinite).
 - Execute
 
-Thank you for using YouTube Bot.
+Thank you for using YouTube Bot!
