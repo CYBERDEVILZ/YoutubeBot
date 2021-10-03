@@ -1,8 +1,9 @@
 # YouTube Bot
 
-![License](https://img.shields.io/github/license/CYBERDEVILZ/YoutubeBot)
+![License](https://img.shields.io/badge/LICENSE-MIT-brightgreen)
 ![Issues](https://img.shields.io/github/issues/CYBERDEVILZ/YoutubeBot)
 ![Stars](https://img.shields.io/github/stars/CYBERDEVILZ/YoutubeBot)
+![Contributors](https://img.shields.io/github/contributors/CYBERDEVILZ/YoutubeBot)
 ![Forks](https://img.shields.io/github/forks/CYBERDEVILZ/YoutubeBot)
 
 ## Increase views on your videos
