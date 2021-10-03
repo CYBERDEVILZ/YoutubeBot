@@ -2,3 +2,4 @@ selenium
 pillow
 requests
 pyautogui
+black
