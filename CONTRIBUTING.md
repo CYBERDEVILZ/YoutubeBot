@@ -5,19 +5,19 @@ also important to follow the best practices so that there is no confusion.
 
 ## Some Resources
 
-For beginners, who are starting out with their first contributions, it might seem a bit tricky to work with **GitHub**, especially if you have no previous knowledge of ***Git***.
+For beginners, who are starting out with their first contributions, it might seem a bit tricky to work with **GitHub**, especially if you have no previous knowledge of **_Git_**.
 
 So, here are a couple of resources to help you refresh / get started:
 
 1. [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 2. [GitHub Learning Lab](https://lab.github.com/githubtraining/introduction-to-github)
-3. [ZBunker's Complete Git Tutorial](https://https://youtube.com/playlist?list=PLbsliZj8JocK6vYXvm4Yn2ftfvxGgutQV) *(recommended if you are willing to devote some time)*
+3. [ZBunker's Complete Git Tutorial](https://https://youtube.com/playlist?list=PLbsliZj8JocK6vYXvm4Yn2ftfvxGgutQV) _(recommended if you are willing to devote some time)_
 
 ## Programming Language
 
 YouTubeBot relies on Python as its core language. So, inorder to make contributions, you are expected to know the basics of Python. [Here](https://www.youtube.com/playlist?list=PLbsliZj8JocIez5TvsbMaVKgF-sxoal0C) is a great playlist to start with.
 
-## Non Technincal? No Problemo
+## Non Technincal? No Problem
 
 YouTubeBot is evolving at a very fast rate. So many changes are being made to make it adaptive and upto date. This means, we change/update our documentations very often. Keeping a proper and neat documentation is what we are after. For those contributing towards documentation, knowing **Markdown** will be of great help.
 
@@ -33,12 +33,32 @@ You are free to choose your style of workflow as far as you are not making a PR 
 For beginners, here's what you'd have to do:
 
 1. Fork the Project
-2. Clone your fork to your local machine via `git clone https://github.com/YOUR_USERNAME/YoutubeBot.git`
-3. Create a branch in your local machine: `git checkout -b <branchname>`
+2. Clone your fork to your local machine via
+
+```
+git clone https://github.com/YOUR_USERNAME/YoutubeBot.git
+```
+
+3. Create a branch in your local machine:
+
+```
+git checkout -b <YOUR_BRANCH_NAME>
+```
+
 4. Make changes/commits to this branch
-5. Push changes to your fork: `git push origin <branchname>`
-6. Open a PR from your fork to YouTubeBot main branch
+
+```
+git commit -m "SOME_USEFUL_MSG_WITH_ISSUE_CODE"
+```
+
+5. Push changes to your fork:
+
+```
+git push origin <YOUR_BRANCH_NAME>
+```
+
+6. Create a PR from your fork to YouTubeBot main branch
 
 ## Commit Ettiquette
 
-We love our commits to look similar and homogeneous. We recently started following ***conventionalcommits*** guidelines to craft our commit messages. You too can follow this guide at <https://www.conventionalcommits.org/>
+We love our commits to look similar and homogeneous. We recently started following **_conventionalcommits_** guidelines to craft our commit messages. You too can follow this guide at <https://www.conventionalcommits.org/>
