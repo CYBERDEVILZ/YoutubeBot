@@ -3,3 +3,13 @@ repos:
     rev: 21.7b0
     hooks:
     - id: black
+
+    repo: https://github.com/Yelp/detect-secrets
+    rev: v1.1.0
+    hooks:
+    - id: detect-secrets
+        
+    name: Detect secrets
+    description: Detects high entropy strings that are likely to be passwords.
+    entry: detect-secrets-hook
+    language: python
