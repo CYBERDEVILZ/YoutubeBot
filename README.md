@@ -41,4 +41,4 @@ If you are a contributor and willing to contribute to our project. You are highl
   
 <br>
 
-Thank you for using our YouTube Bot!
+Thanks for using our YouTube Bot!
