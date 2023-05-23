@@ -1,4 +1,4 @@
-requests==2.26.0
+requests==2.31.0
 selenium==3.141.0
 PyAutoGUI==0.9.53
 Pillow==9.0.1
