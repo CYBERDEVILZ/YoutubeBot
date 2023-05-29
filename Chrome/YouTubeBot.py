@@ -9,6 +9,7 @@ height = pyautogui.size()[1]
 width = pyautogui.size()[0]
 print("resolution = " + str(width) + ", " + str(height))
 window  = tk.Tk()
+# OK
 window.title("YouTube Bot")
 window.resizable(0,0)
 window.configure(background="white")
