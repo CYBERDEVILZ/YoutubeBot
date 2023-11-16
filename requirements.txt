@@ -1,5 +1,5 @@
 requests==2.26.0
-selenium==3.141.0
+selenium==4.15.1
 PyAutoGUI==0.9.53
 Pillow==9.0.1
 black==21.7b0
